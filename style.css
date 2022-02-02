@@ -1,0 +1,57 @@
+h1, h2 {
+  color: black;
+  font-weight: normal;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+p {
+  color: black;
+  font-weight: normal;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+body {
+  max-width: 50px auto;
+  margin: 50px auto;
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+}
+
+.card {
+  background: white;
+  padding: 0;
+  border: 1px solid lightgrey;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  color: antiquewhite;
+  padding: 120px 0;
+  background-size: cover;
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
